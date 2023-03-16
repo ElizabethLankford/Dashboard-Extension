@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1.time {
+    margin-bottom: 0;
+    font-size: 5em;
+}
+h5#today-date{
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+div#crypto {
+    font-size: 1.3rem;
+    color: #242424;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 90%;
+}
+
+div#crypto > p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+.crypto-title{
+    font-weight: 700;;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+}
+
+div#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+
+div#weather > img {
+    width: 100px;
+    padding-right: 10px;
+}
+
+p.weather-city {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 2em;
+}
+
+p.weather-temp {
+    margin: 0;
+    font-size: 2rem;
+    margin-left: -10px;
+}
+#author{
+    font-size: 12px;
+}
