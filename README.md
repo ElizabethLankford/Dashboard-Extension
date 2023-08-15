@@ -16,7 +16,7 @@ Desktop view
 
 ### Built with
 
-- HTML, CSS, JavaScript, Vite, & React
+- HTML, CSS, JavaScript, & JSON
 - OpenWeatherMap API
 - CoinGecko
 - Unsplash API
